@@ -473,6 +473,7 @@ Partial Class FormPrinicpal
         Me.GroupPanel4 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.ItemPanel8 = New DevComponents.DotNetBar.ItemPanel()
         Me.ButtonItem11 = New DevComponents.DotNetBar.ButtonItem()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.tabContabilidad.SuspendLayout()
@@ -2705,6 +2706,7 @@ Partial Class FormPrinicpal
         '
         Me.TabControl1.Controls.Add(Me.tabContabilidad)
         Me.TabControl1.Controls.Add(Me.tabBanco)
+        Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Location = New System.Drawing.Point(170, 11)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -3291,6 +3293,16 @@ Partial Class FormPrinicpal
         Me.ButtonItem11.Name = "ButtonItem11"
         Me.ButtonItem11.Text = "ButtonItem16"
         '
+        'TabPage1
+        '
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(632, 672)
+        Me.TabPage1.TabIndex = 2
+        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
         'FormPrinicpal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -3771,4 +3783,5 @@ Partial Class FormPrinicpal
     Friend WithEvents ButtonX5 As DevComponents.DotNetBar.ButtonX
     Friend WithEvents ButtonX4 As DevComponents.DotNetBar.ButtonX
     Friend WithEvents ButtonX3 As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents TabPage1 As TabPage
 End Class
