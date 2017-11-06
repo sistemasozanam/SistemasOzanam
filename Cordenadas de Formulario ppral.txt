@@ -1,0 +1,9 @@
+LOCATION 
+Transacciones	176, 12
+Procesos	587, 12
+Reportes	176, 357
+Tablas		587, 357
+
+
+SIZE	377, 342   PARA TODOS
+
